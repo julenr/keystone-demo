@@ -79,10 +79,10 @@ Everything.add(
 			noedit: true,
 			defaults: {
 				street1: '283-285 Kent St',
-				suburb: 'Sydney',
-				state: 'NSW',
+				suburb: 'Barcelona',
+				state: 'Cataluna',
 				postcode: '2000',
-				country: 'Australia'
+				country: 'Spain'
 			}
 		}
 	});
