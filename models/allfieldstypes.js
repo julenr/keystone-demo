@@ -14,9 +14,6 @@ Everything.add(
 		name: {type: String},
 		requiredString: {type: String, required: true, initial: true, note: 'This field is required.'},
 		defaultString: {type: String, default: 'Default Value'},
-		shortString: {type: String, width: 'short'},
-		mediumString: {type: String, width: 'medium'},
-		longString: {type: String, width: 'long'},
 		textarea: {type: Types.Textarea, initial: true},
 		key: {type: Types.Key},
 		email: {type: Types.Email},
@@ -48,9 +45,7 @@ Everything.add(
 		password: {type: Types.Password, initial: true},
 		location: {type: Types.Location},
 		markdown: {type: Types.Markdown},
-		wysiwygHtml: {type: Types.Html, wysiwyg: true},
-		shortWysiwygField: {type: Types.Html, wysiwyg: true, height: 100},
-		embedSrc: {type: String}
+		wysiwygHtml: {type: Types.Html, wysiwyg: true}
 	}, 'Dependent Fields', {
 		otherSelect: {
 			type: Types.Select, options: [
